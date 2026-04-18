@@ -1,5 +1,11 @@
 # Scrcpy GUI — .NET MAUI
 
+> **This repository is archived.** This is v1.5.1, the original Windows-only .NET MAUI implementation.
+> The project has been rewritten in Flutter (v1.6+) with cross-platform support.
+> **Active development is at [GeorgeEnglezos/Scrcpy-GUI](https://github.com/GeorgeEnglezos/Scrcpy-GUI).**
+
+---
+
 A Windows desktop application that provides a visual command builder for [scrcpy](https://github.com/Genymobile/scrcpy) — the open-source Android screen mirroring tool.
 
 Instead of constructing scrcpy commands by hand, users select options across categorised panels (display, audio, recording, virtual display, package launch) and the app builds and previews the command in real time with syntax highlighting, then executes it via ADB.
